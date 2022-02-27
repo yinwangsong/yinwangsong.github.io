@@ -6,3 +6,26 @@ I am now an undergraduate of department of Software Engineering (SE), Northweste
 (E-mail: 2018303115 AT mail DOT nwpu DOT edu DOT cn)
 
 Here is my [Curriculum Vitae](WangsongYin_cv_V1.0.pdf) and my [Undergraduate Transcript](Transcript_YINWangsong.pdf).
+
+## Education
+
+- 2018~2022  B.E. in SE, NWPU
+- 2022~2027(Due) Ph.D. in CS, PKU
+
+## Employment & internship
+
+- ...
+
+## Honors & scholarships
+
+- CN National Scholarship (2019, 2020, 2021)
+- NWPU Outstanding students/First class scholarship (2019, 2020, 2021)
+- Outstanding graduate of shaanxi province (2022)
+
+## Projects & Publications
+
+...
+
+## News
+
+last updated in 27 Feb.
