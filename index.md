@@ -19,8 +19,8 @@ Here is my [Curriculum Vitae](WangsongYin_cv_V1.0.pdf) and my [Undergraduate Tra
 ## Honors & scholarships
 
 - CN National Scholarship (2019, 2020, 2021)
-- NWPU Outstanding students/First class scholarship (2019, 2020, 2021)
-- Outstanding graduate of shaanxi province (2022)
+- NWPU Outstanding Students/First class Scholarship (2019, 2020, 2021)
+- Outstanding Graduate of Shaanxi Province (2022)
 
 ## Projects & Publications
 
