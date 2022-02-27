@@ -5,4 +5,4 @@ I am now an undergraduate of department of Software Engineering (SE), Northweste
 **My research interest is focused on System for AI，Mobile/Edge computing and Mobile Web Applications. Welcome to contact me for further communication or cooperation**.
 (E-mail: 2018303115 AT mail DOT nwpu DOT edu DOT cn)
 
-Here is my [Curriculum Vitae]() and my [Undergraduate Transcript](Transcript_YINWangsong.pdf).
+Here is my [Curriculum Vitae](WangsongYin_cv_V1.0.pdf) and my [Undergraduate Transcript](Transcript_YINWangsong.pdf).
