@@ -10,7 +10,7 @@ Here is my [Curriculum Vitae](WangsongYin_cv_V1.0.pdf) and my [Undergraduate Tra
 ## Education
 
 - 2018~2022  B.E. in SE, NWPU (GPA Ranking 1/258)
-- 2022~2027(Due) Ph.D. in CS, PKU
+- 2022~2027(expected) Ph.D. in CS, PKU
 
 ## Employment & internship
 
