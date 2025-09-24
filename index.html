@@ -1,84 +1,233 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>我的简单页面</title>
-  <meta name="description" content="一个简单的 HTML 示例页面">
-  <style>
-    :root {
-      color-scheme: light dark;
-    }
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", Arial, "Noto Sans CJK SC", sans-serif;
-      line-height: 1.6;
-      color: #1f2937;
-      background: #f8fafc;
-    }
-    header {
-      padding: 24px 16px;
-      background: linear-gradient(135deg, #4f46e5, #06b6d4);
-      color: #fff;
-      text-align: center;
-    }
-    header h1 { margin: 0; font-size: 28px; }
-    main { max-width: 720px; padding: 24px 16px; margin: 0 auto; }
-    .card {
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 6px 20px rgba(0,0,0,.08);
-      padding: 20px;
-    }
-    h2 { margin-top: 0; font-size: 22px; color: #111827; }
-    p { margin: 12px 0; }
-    a.button {
-      display: inline-block;
-      padding: 10px 16px;
-      margin-top: 8px;
-      background: #4f46e5;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 8px;
-      transition: transform .05s ease, opacity .2s ease;
-    }
-    a.button:hover { opacity: .9; transform: translateY(-1px); }
-    footer {
-      text-align: center;
-      color: #6b7280;
-      padding: 24px 16px 40px;
-      font-size: 14px;
-    }
-  </style>
-  
-  <!-- PWA 基础色，非必须 -->
-  <meta name="theme-color" content="#4f46e5">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css-js/bootstrap.min.css">
+    <link rel="stylesheet" href="./css-js/all.css">
+
+    <link rel="stylesheet" href="./css-js/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css-js/default.css" />
+    <link rel="stylesheet" type="text/css" href="./css-js/menucss.css" />
+
+    <style>
+        .footer {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 25%;
+            background-color: #d5d8dc;
+            color: white;
+            text-align: left;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #336699;
+        }
+    </style>
+
+    <title>Wangsong Yin</title>
 </head>
+
 <body>
-  <header>
-    <h1>欢迎来到我的页面</h1>
-    <p>这是一个由 AI 生成的简单 HTML 示例</p>
-  </header>
+    <div id="outer">
 
-  <main>
-    <section class="card">
-      <h2>你好！</h2>
-      <p>你已经成功创建了一个简洁、现代的 HTML 页面。你可以在这里添加更多内容，比如图片、列表、链接或组件。</p>
-      <p>编辑此文件：<code>index.html</code> 即可实时修改内容与样式。</p>
-      <a class="button" href="https://developer.mozilla.org/zh-CN/docs/Web/HTML" target="_blank" rel="noreferrer noopener">了解更多 HTML</a>
-    </section>
-  </main>
+        <div id="content">
+            <!--person-->
+            <div id="normalcontent">
+                <div class="contentarea" style="margin-left:75px; margin-right:105px;">
+                    <img src="image/photo.jpg" class="right" alt="Mengwei Xu's Profile Picture" width="250" height="250" />
+                    <p>
+                        <b><font size="6">Wangsong Yin</font></b>
+                        <br>
+                        <br> Ph.D. Candidate @ Peking University (PKU), School of Computer Science
+                        <br>
+                        <b>Email</b>: yws AT stu DOT pku DOT edu DOT cn
+                        <br>
+                        <br> Here is my <a target="_blank" href="files/cv-en.pdf" target="_blank">Curriculum Vitae</a>.
+                        <br>
+                        <!--<font color="#b9304a">I am recruiting motivated and ambitious PhD, Master, undergraduate students, and remote research interns to join my lab.</font>-->
+                    </p>
 
-  <footer>
-    <span>© <span id="year"></span> 我的站点 · 保留所有权利</span>
-  </footer>
+                </div>
+            </div>
 
-  <script>
-    // 简单的动态年份
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+            <!--about-->
+            <div class="contentarea">
+                <div id="about">
+                    <hr size="30" color="#cfd8dc">
+                    <p>
+                        I'm an associate professor in Beijing University of Posts and Telecommunications (BUPT). I received my doctoral and bachelor degrees from Peking University in 2020 and 2015, co-advised by Prof. Gang Huang and Prof. Xuanzhe Liu.
+                        <!-- I was a visiting scholar at Purdue ECE in 2019, working with<a target="_blank" href="https://fxlin.github.io/"> Prof. Felix Xiaozhu Lin</a>. I interned at MSRA System group from Mar. 2015 to Mar. 2016, mentored by<a target="_blank" href="https://www.microsoft.com/en-us/research/people/"> Dr. Yunxin Liu.</a> -->
+                    <!-- I also visited MSRA from Dec. 2020 through the "star-track" program. -->
+                        <!--                            <br>-->
+                    </p>
+                    <!--                            <br>-->
+                    <strong> I always look for highly self-motivated undergraduates and graduates. Please
+                        directly send
+                        your CV to me if you find my research interesting.</strong>
+                    <!--                        </p>-->
+                </div>
+            </div>
+
+            <!--    research-->
+            <div class="contentarea">
+                <div id="research">
+                    <hr size="50" color="#cfd8dc">
+                    <h3>Research</h3>
+                    <p><br> I work on systems software, with a focus on resource-constrained platforms like smartphones and satellites. 
+                    For now, the long-term, central question that I seek to answer through my research is: <i>"when AGI comes, what kind of system software will be needed".</i></p>
+                    <p> (&#x2713;) I'm now working on following directions.</p>
+                    <ul>
+                        <li>
+                            <p class="pubEntry">
+                                <b>Efficient on-device (multimodal) LLM</b> - 
+                                Human brains function without clouds, why mobile devices cannot?
+                                <!-- Here are my
+                                <a target="_blank" href="files/Opinions-LLM.pdf"> personal opinions </a>
+                                (outdated but lazy to update now) on how LLM is transforming our research, and a <a href="https://arxiv.org/pdf/2401.08092.pdf"> survey </a> on resource-efficient LLM. -->
+                                <!-- <br> -->
+                                <ul>
+                                    <li><b>Models:</b>
+                                        <a href="https://xumengwei.github.io/files/MobiCom24-MobileFM.pdf">[MobiCom'24, M4]</a>
+                                        <a href="https://arxiv.org/pdf/2411.05046">[arxiv'24,PhoneLM]</a>
+                                    </li>
+                                    <li><b>Algorithms:</b>
+                                        <a href="https://xumengwei.github.io/files/ATC24-FwdLLM.pdf">[ATC'24, FwdLLM]</a>
+                                        <a href="https://xumengwei.github.io/files/SenSys24-PieBridge.pdf">[SenSys'24, PieBridge]</a>
+                                        <a href="https://xumengwei.github.io/files/NeurIPS24-SILENCE.pdf">[NeurIPS'24, SILENCE]</a>
+                                        <a href="https://arxiv.org/pdf/2409.15342">[Nature Comm'24, Recall]</a>
+                                    </li>
+                                    <li><b>Systems:</b>
+                                        <a href="https://arxiv.org/pdf/2407.05858">[ASPLOS'25, llm.npu]</a>
+                                        <a href="https://arxiv.org/pdf/2309.04255">[TMC'24, EdgeLLM]</a>
+                                        <a href="https://arxiv.org/pdf/2403.11805">[arxiv'24, Libra]</a>
+                                        <a href="https://arxiv.org/pdf/2308.14352.pdf">[TMC'25, EdgeMoE]</a>
+                                    </li>
+                                    <li><b>Measurements and surveys:</b>
+                                        <a href="https://arxiv.org/pdf/2401.08092.pdf">[CSUR'24, Efficient LLM]</a>
+                                        <a href="https://arxiv.org/pdf/2409.15790">[ACL'25, Small Language Model]</a>
+                                    </li>
+                                    <br>
+                                </ul>
+                        </li>
+                        <li>
+                            <p class="pubEntry">
+                                <b>LLM-powered mobile agent</b> - The vision is to democratize the access to modern electronic devices for every person (e.g., those with disabilities or are elderly) at any time (e.g., driving).
+                                <ul>
+                                    <li><b>GUI Agent</b>
+                                        <a href="https://arxiv.org/pdf/2505.12493">[arxiv'25, Self-supervised RL]</a>
+                                        <a href="https://xumengwei.github.io/files/UIST24-LlamaTouch.pdf">[UIST'24, LlamaTouch Testbed]</a>
+                                        <a href="https://arxiv.org/pdf/2409.14337">[arxiv'24, MobileViews Dataset]</a>
+                                    </li>
+                                    <li><b>API Agent</b>
+                                        <a href="https://arxiv.org/pdf/2407.00132">[ICLR'25, iOS Dataset]</a>
+                                        <a href="https://arxiv.org/abs/2412.00402">[arxiv'24, Android Dataset]</a>
+                                    </li>
+                                    <li><b>Whitebox Agent</b>
+                                        <a href="https://arxiv.org/pdf/2502.04747">[arxiv'25, Visionary Paper]</a>
+                                    </li>
+                                    <br>
+                                </ul>
+                        </li>
+                        <li>
+                            <p class="pubEntry">
+                                <b>Satellite computing</b> - we take satellites as the next-generation platform that will carry exciting applications that are unaffordable on the ground. What differentiates us from others is that we have <a href="http://www.tiansuan.org.cn/">our own satellite platform in orbit and ground stations</a>!
+                                <ul>
+                                    <li><b>Rust OS for satellites</b>
+                                        <a href="https://xumengwei.github.io/files/ATC24-RFL.pdf">[ATC'24, RFL]</a>
+                                    </li>
+                                    <li><b>Satellite platform</b>
+                                        <a href="https://xumengwei.github.io/files/MobiCom24-Satellite.pdf">[MobiCom'24, Measurement]</a>
+                                        <a href="http://www.tiansuan.org.cn/source/A%20Satellite-Born%20Server%20Design%20with%20Massive%20Tiny%20Chips%20Towards%20In-Space%20Computing.pdf">[IEEE Satellite'22, Satellite Server]</a>
+                                    </li>
+                                    <br>
+                                </ul>
+                        </li>
+                        <!-- <li>
+                            <p class="pubEntry">
+                                <b>Energy-efficient edge platforms</b> - edge clouds need to be carbon-friendly. <a href="files/files/SEC22-position-paper.pdf">A position paper on it.</a>
+                        </li> -->
+                    </ul>
+                    <p> (&#x2718;) I used to working on following topics but not anymore!</p>
+                    <ul>
+                        <li>
+                            <b style="color:grey;">Efficient on-device AI in pre-LLM era.</b>
+                        </li>
+                        <li>
+                            <b style="color:grey;">Federated learning.</b>
+                        </li>
+                        <li>
+                            <b style="color:grey;">Computing at edge clouds.</b>
+                        </li>
+                    </ul>
+                </div>
+                <div id="Projects">
+                    <hr size="50" color="#cfd8dc">
+                    <h3>Open-sourced Projects</h3>
+                    <p><br>Our team is passionate about building open-sourced systems that can benefit others.</p>
+                    <ul>
+                        <li>
+                            <p class="pubEntry">
+                                <b><a target="_blank" href="https://github.com/UbiquitousLearning/mllm"> mllm </a></b> 
+                                - a fast and lightweight multimodal LLM inference engine for mobile devices. </a>
+                        <li>
+                            <p class="pubEntry">
+                                <b><a target="_blank" href="https://github.com/BUPT-OS/RROS"> RROS </a></b> 
+                                - a dual-kernel, Rust-based OS for satellites or other scenarios that need both real-time and general-purpose abilities. RROS = RTOS (Rust) + Linux (C). RROS has been <a href="https://bupt-os.github.io/website/news/2023_12_9/satellite_launch/"> sent into space </a> already!
+                        <li>
+                            <p class="pubEntry">
+                                <b><a target="_blank" href="https://github.com/LlamaTouch"> LlamaTouch </a></b> 
+                                - Mobile Agents, testbed, and datasets.
+                        <!-- <li>
+                            <p class="pubEntry">
+                                <b><a target="_blank" href="https://github.com/UbiquitousLearning/End2end-Federated-Learning"> E2E Federated Learning </a></b> 
+                                - an end-to-end federated learning prototype across smartphones.
+                        </li>   
+                        <li>
+                            <p class="pubEntry">
+                                <b><a target="_blank" href="https://github.com/UbiquitousLearning/FedAdapter"> FedAdapter </a></b> 
+                                - a parameter-efficient federated learning framework. 
+                        </li>
+                        <li>
+                            <p class="pubEntry">
+                                <b><a target="_blank" href="https://github.com/UbiquitousLearning/Mandheling-DSP-Training"> Mandheling </a></b> 
+                                - an on-device training engine with Qualcomm Hexagon DSP.
+                        </li> -->
+                        <!-- <li>
+                            <p class="pubEntry">
+                                <b><a target="_blank" href="https://weibo.com/n/%E7%81%AB%E9%94%85%E5%B0%8F%E8%90%8C%E7%8A%AC?from=feed&loc=at"> Hotpot </a></b> 
+                                - a cute dog feeding project that lasts decades.
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <div class="footer"></div>
+
+
+
+    <script src="./css-js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./css-js/popper.min.js"></script>
+    <script src="./css-js/bootstrap.min.js"></script>
 </body>
+
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted"></span>
+    </div>
+</footer>
+
 </html>
-
-
