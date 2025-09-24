@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我的简单页面</title>
+  <meta name="description" content="一个简单的 HTML 示例页面">
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", Arial, "Noto Sans CJK SC", sans-serif;
+      line-height: 1.6;
+      color: #1f2937;
+      background: #f8fafc;
+    }
+    header {
+      padding: 24px 16px;
+      background: linear-gradient(135deg, #4f46e5, #06b6d4);
+      color: #fff;
+      text-align: center;
+    }
+    header h1 { margin: 0; font-size: 28px; }
+    main { max-width: 720px; padding: 24px 16px; margin: 0 auto; }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,.08);
+      padding: 20px;
+    }
+    h2 { margin-top: 0; font-size: 22px; color: #111827; }
+    p { margin: 12px 0; }
+    a.button {
+      display: inline-block;
+      padding: 10px 16px;
+      margin-top: 8px;
+      background: #4f46e5;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: transform .05s ease, opacity .2s ease;
+    }
+    a.button:hover { opacity: .9; transform: translateY(-1px); }
+    footer {
+      text-align: center;
+      color: #6b7280;
+      padding: 24px 16px 40px;
+      font-size: 14px;
+    }
+  </style>
+  
+  <!-- PWA 基础色，非必须 -->
+  <meta name="theme-color" content="#4f46e5">
+</head>
+<body>
+  <header>
+    <h1>欢迎来到我的页面</h1>
+    <p>这是一个由 AI 生成的简单 HTML 示例</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>你好！</h2>
+      <p>你已经成功创建了一个简洁、现代的 HTML 页面。你可以在这里添加更多内容，比如图片、列表、链接或组件。</p>
+      <p>编辑此文件：<code>index.html</code> 即可实时修改内容与样式。</p>
+      <a class="button" href="https://developer.mozilla.org/zh-CN/docs/Web/HTML" target="_blank" rel="noreferrer noopener">了解更多 HTML</a>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> 我的站点 · 保留所有权利</span>
+  </footer>
+
+  <script>
+    // 简单的动态年份
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
