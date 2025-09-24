@@ -51,7 +51,7 @@ conferences([
                 "path": "https://github.com/yinwangsong/ElastiLM"
             }],
             "important_msg": null,
-            "msg": "--- A single elastic on-device LLM for vairous SLOs."
+            "msg": "--- A single elastic on-device LLM for various SLOs."
         }
     },
     {
