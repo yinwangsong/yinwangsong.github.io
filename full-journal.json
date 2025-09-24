@@ -1,0 +1,42 @@
+journals([
+    {
+        "journal": "[CSUR'25]",
+        "journal_fullname": "ACM Computing Surveys",
+        "show_selected": true,
+        "title": "Resource-Efficient Algorithms and Systems of Foundation Models: A Survey",
+        "authors": ["Mengwei Xu*", "Dongqi Cai*", "Wangsong Yin*", "Shangguang Wang", "Xin Jin", "Xuanzhe Liu"],
+        "files": [
+            {
+                "name": "Paper",
+                "path": "files/CSUR25-llm-survey.pdf"
+            },
+            {
+                "name": "Full Version",
+                "path": "https://arxiv.org/abs/2401.08092"
+            },
+            {
+                "name": "Paper List",
+                "path": "https://github.com/UbiquitousLearning/Efficient_Foundation_Model_Survey"
+            }],
+            "important_msg": null,
+            // "msg": "--- breaking the memory wall by speculative decoding!"
+    },
+    {
+        "journal": "[TMC'24]",
+        "journal_fullname": "IEEE Transactions on Mobile Computing",
+        "show_selected": true,
+        "title": "Edgellm: Fast On-Device LLM Inference with Speculative Decoding",
+        "authors": ["Daliang Xu", "Wangsong Yin", "Hao Zhang", "Xin Jin", "Ying Zhang", "Shiyun Wei", "Mengwei Xu", "Xuanzhe Liu"],
+        "files": [
+            {
+                "name": "Paper",
+                "path": "files/tmc24xu.pdf"
+            },
+            {
+                "name": "arXiv",
+                "path": "https://arxiv.org/abs/2309.04255"
+            }],
+            "important_msg": null,
+            // "msg": "--- breaking the memory wall by speculative decoding!"
+    }
+])

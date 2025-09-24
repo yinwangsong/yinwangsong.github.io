@@ -1,0 +1,82 @@
+conferences([
+    {
+        "conference": "[arXiv]",
+        // "confernce_fullname": "",
+        "show_selected": true,
+        "title": "Dynamic Sparse Attention on Mobile SoCs",
+        "authors": ["Wangsong Yin", "Daliang Xu", "Mengwei Xu", "Gang Huang", "Xuanzhe Liu"],
+        "year": 2025,
+        "addtion": {
+            // "rate": "Acceptance rate = 18.9 % (49/258, summer round)",
+            "files": [{
+                "name": "arxiv",
+                "path": "https://arxiv.org/abs/2508.16703"
+            }],
+            "important_msg": null,
+            "msg": "--- AFAWK, the best practice to run sparse attention on heterogeneous mobile SoC."
+        }
+    },
+    {
+        "conference": "[SenSys'26, To Appear]",
+        "confernce_fullname": "The International Conference on Embedded Artificial Intelligence and Sensing Systems",
+        "show_selected": true,
+        "title": "LLM as a System Service on Mobile Devices",
+        "authors": ["Wangsong Yin", "Mengwei Xu", "Yuanchun Li", "Xuanzhe Liu"],
+        "year": 2025,
+        "addtion": {
+            "rate": "Acceptance rate = 18.9 % (49/258, summer round)",
+            "files": [{
+                "name": "arxiv",
+                "path": "https://arxiv.org/abs/2403.11805"
+            }],
+            "important_msg": null,
+            "msg": "--- Managing the context under the vision of LLM as mobile OS service."
+        }
+    },
+    {
+        "conference": "[MobiCom'25]",
+        "confernce_fullname": "Annual International Conference On Mobile Computing And Networking",
+        "show_selected": true,
+        "title": "Elastic On-Device LLM Service",
+        "authors": ["Wangsong Yin", "Rongjie Yi", "Daliang Xu", "Gang Huang", "Mengwei Xu", "Xuanzhe Liu"],
+        "year": 2025,
+        "addtion": {
+            "rate": "Acceptance rate = 10.3 % (36/348, winter round)",
+            "files": [{
+                "name": "paper",
+                "path": "files/mobicom25yin.pdf"
+            },
+            {
+                "name": "code",
+                "path": "https://github.com/yinwangsong/ElastiLM"
+            }],
+            "important_msg": null,
+            "msg": "--- A single elastic on-device LLM for vairous SLOs."
+        }
+    },
+    {
+        "conference": "[SenSys'24]",
+        "confernce_fullname": "ACM Conference on Embedded Networked Sensor Systems",
+        "show_selected": true,
+        "title": "PieBridge: Fast and Parameter-Efficient On-Device Training via Proxy Networks",
+        "authors": ["Wangsong Yin", "Daliang Xu", "Gang Huang", "Ying Zhang", "Shiyun Wei", "Mengwei Xu", "Xuanzhe Liu"],
+        "year": 2024,
+        "addtion": {
+            "rate": "Acceptance rate = 18.5 % (58/313)",
+            "files": [{
+                "name": "paper",
+                "path": "files/sensys24yin.pdf"
+            },
+            {
+                "name": "code",
+                "path": "https://github.com/yinwangsong/PieBridge"
+            },
+            {
+                "name": "slides",
+                "path": "files/sensys24yin-slides.pdf"
+            }],
+            "important_msg": null,
+            "msg": "--- Training DNNs on mobile devices, with both time- and parameter-efficiency."
+        }
+    }
+])
