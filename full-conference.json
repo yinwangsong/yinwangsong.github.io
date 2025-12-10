@@ -49,6 +49,10 @@ conferences([
             {
                 "name": "code",
                 "path": "https://github.com/yinwangsong/ElastiLM"
+            },
+            {
+                "name": "slides",
+                "path": "files/mobicom25yin-slides.pdf"
             }],
             "important_msg": null,
             "msg": "--- A single elastic on-device LLM for various SLOs."
