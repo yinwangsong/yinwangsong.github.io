@@ -30,6 +30,83 @@
             text-decoration: none;
             color: #336699;
         }
+
+        /* 响应式设计 - 移动设备优化 */
+        @media screen and (max-width: 768px) {
+            #outer {
+                width: 100% !important;
+                border: none !important;
+                margin: 0 !important;
+            }
+
+            #content {
+                padding: 0em 1.0em !important;
+            }
+
+            .contentarea {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+            }
+
+            #person-info {
+                margin-left: 15px !important;
+                margin-right: 15px !important;
+            }
+
+            img.right {
+                float: none !important;
+                display: block !important;
+                margin: 0 auto 1.5em auto !important;
+                max-width: 120px !important;
+                width: auto !important;
+                height: auto !important;
+            }
+
+            body {
+                padding: 10px 0px !important;
+            }
+
+            p {
+                font-size: 14px !important;
+                line-height: 1.6em !important;
+            }
+
+            font[size="6"] {
+                font-size: 24px !important;
+            }
+
+            .pubEntry {
+                font-size: 11pt !important;
+            }
+
+            h4 {
+                font-size: 1.1em !important;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .contentarea {
+                margin-left: 10px !important;
+                margin-right: 10px !important;
+            }
+
+            #person-info {
+                margin-left: 10px !important;
+                margin-right: 10px !important;
+            }
+
+            img.right {
+                max-width: 100px !important;
+            }
+
+            font[size="6"] {
+                font-size: 20px !important;
+            }
+
+            p {
+                font-size: 13px !important;
+            }
+        }
     </style>
 
     <title>Wangsong Yin</title>
@@ -40,7 +117,7 @@
         <div id="content">
             <!--person-->
             <div id="normalcontent">
-                <div class="contentarea" style="margin-left:75px; margin-right:105px;">
+                <div class="contentarea" style="margin-left:75px; margin-right:105px;" id="person-info">
                     <img src="image/image.png" class="right" alt="Wangsong Yin's Profile Picture" width="160" height="210" />
                     <p>
                         <b><font size="6">Wangsong Yin</font></b>
