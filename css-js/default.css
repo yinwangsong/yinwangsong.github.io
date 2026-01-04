@@ -130,6 +130,7 @@ h4 {
 
 .contentarea {
     padding-top: 1.3em;
+    box-sizing: border-box;
 }
 
 img {
@@ -281,7 +282,9 @@ ul.linklist li {
     background-color: #fff;
     margin: 0 auto;
     font-family: Georgia;
-    font-size: 16px
+    font-size: 16px;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 #header {
@@ -405,6 +408,7 @@ margin-bottom: 1.5em;
 
 #content {
     padding: 0em 2.0em 0em 2.0em;
+    box-sizing: border-box;
 }
 
 #primarycontainer {
@@ -468,4 +472,107 @@ IMG.displayed2 {
     display: block;
     margin-left: 450px;
     margin-right: auto
+}
+
+/* 响应式设计 - 移动设备优化 */
+@media screen and (max-width: 768px) {
+    #outer {
+        width: 100% !important;
+        border: none !important;
+        margin: 0 !important;
+    }
+
+    #content {
+        padding: 0em 1.0em !important;
+    }
+
+    .contentarea {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+
+    #person-info {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+
+    img.right {
+        float: none !important;
+        display: block !important;
+        margin: 0 auto 1.5em auto !important;
+        max-width: 120px !important;
+        height: auto !important;
+    }
+
+    img.left {
+        float: none !important;
+        display: block !important;
+        margin: 0 auto 1.5em auto !important;
+        max-width: 120px !important;
+        height: auto !important;
+    }
+
+    body {
+        padding: 10px 0px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+        line-height: 1.6em !important;
+    }
+
+    .pubEntry {
+        font-size: 11pt !important;
+    }
+
+    h4 {
+        font-size: 1.1em !important;
+    }
+
+    h3 {
+        font-size: 1.4em !important;
+    }
+
+    ul li {
+        margin-left: 10px !important;
+    }
+
+    #publications,
+    #publications ul li {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contentarea {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+    #person-info {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+
+    img.right,
+    img.left {
+        max-width: 100px !important;
+    }
+
+    p {
+        font-size: 13px !important;
+    }
+
+    .pubEntry {
+        font-size: 10pt !important;
+    }
+
+    h4 {
+        font-size: 1.0em !important;
+    }
+
+    h3 {
+        font-size: 1.2em !important;
+    }
 }
