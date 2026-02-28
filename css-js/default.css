@@ -39,8 +39,6 @@ body {
     display: inline;
 }
 
-.pressTitle {}
-
 .pressDate {
     font-style: italic;
 }
@@ -473,55 +471,6 @@ IMG.displayed2 {
     margin-left: 450px;
     margin-right: auto
 }
-
-/* @media screen and (max-width: 480px) {
-    .contentarea {
-        margin-left: 10px !important;
-        margin-right: 10px !important;
-    }
-
-    #person-info {
-        margin-left: 10px !important;
-        margin-right: 10px !important;
-        display: flex !important;
-        flex-direction: column !important;
-    }
-
-    #person-info img.right {
-        max-width: 100px !important;
-        float: none !important;
-        display: block !important;
-        margin: 0 auto 1.5em auto !important;
-        order: 1 !important;
-    }
-
-    #person-info p {
-        order: 2 !important;
-        width: 100% !important;
-        clear: both !important;
-    }
-
-    img.right,
-    img.left {
-        max-width: 100px !important;
-    }
-
-    p {
-        font-size: 18px !important;
-    }
-
-    .pubEntry {
-        font-size: 18px !important;
-    }
-
-    h4 {
-        font-size: 0.8em !important;
-    }
-
-    h3 {
-        font-size: 1.2em !important;
-    }
-} */
 
 
 
