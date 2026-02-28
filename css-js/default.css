@@ -474,7 +474,7 @@ IMG.displayed2 {
     margin-right: auto
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
     .contentarea {
         margin-left: 10px !important;
         margin-right: 10px !important;
@@ -521,7 +521,8 @@ IMG.displayed2 {
     h3 {
         font-size: 1.2em !important;
     }
-}
+} */
+
 
 
 
