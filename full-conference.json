@@ -1,13 +1,13 @@
 conferences([
     {
-        "conference": "[arXiv]",
+        "conference": "[MobiSys'26, To Appear]",
         // "confernce_fullname": "",
         "show_selected": true,
         "title": "Dynamic Sparse Attention on Mobile SoCs",
         "authors": ["Wangsong Yin", "Daliang Xu", "Mengwei Xu", "Gang Huang", "Xuanzhe Liu"],
         "year": 2025,
         "addtion": {
-            // "rate": "Acceptance rate = 18.9 % (49/258, summer round)",
+            "rate": "Acceptance rate = 22.4 % (68/304)",
             "files": [{
                 "name": "arxiv",
                 "path": "https://arxiv.org/abs/2508.16703"
