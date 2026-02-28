@@ -474,94 +474,6 @@ IMG.displayed2 {
     margin-right: auto
 }
 
-/* 响应式设计 - 移动设备优化 */
-@media screen and (max-width: 768px) {
-    #outer {
-        width: 100% !important;
-        border: none !important;
-        margin: 0 !important;
-    }
-
-    #content {
-        padding: 0em 1.0em !important;
-    }
-
-    .contentarea {
-        margin-left: 15px !important;
-        margin-right: 15px !important;
-    }
-
-    #person-info {
-        margin-left: 15px !important;
-        margin-right: 15px !important;
-        display: flex !important;
-        flex-direction: column !important;
-    }
-
-    #person-info img.right {
-        float: none !important;
-        display: block !important;
-        margin: 0 auto 1.5em auto !important;
-        max-width: 120px !important;
-        width: auto !important;
-        height: auto !important;
-        order: 1 !important;
-    }
-
-    #person-info p {
-        order: 2 !important;
-        width: 100% !important;
-        clear: both !important;
-    }
-
-    img.right {
-        float: none !important;
-        display: block !important;
-        margin: 0 auto 1.5em auto !important;
-        max-width: 120px !important;
-        height: auto !important;
-    }
-
-    img.left {
-        float: none !important;
-        display: block !important;
-        margin: 0 auto 1.5em auto !important;
-        max-width: 120px !important;
-        height: auto !important;
-    }
-
-    body {
-        padding: 10px 0px !important;
-    }
-
-    p {
-        font-size: 10px !important;
-        line-height: 1.6em !important;
-    }
-
-    .pubEntry {
-        font-size: 14px !important;
-    }
-
-    h4 {
-        font-size: 1.1em !important;
-    }
-
-    h3 {
-        font-size: 1.4em !important;
-    }
-
-    ul li {
-        margin-left: 10px !important;
-    }
-
-    #publications,
-    #publications ul li {
-        margin-left: 10px !important;
-        margin-right: 10px !important;
-    }
-}
-
 @media screen and (max-width: 480px) {
     .contentarea {
         margin-left: 10px !important;
@@ -610,4 +522,5 @@ IMG.displayed2 {
         font-size: 1.2em !important;
     }
 }
+
 
