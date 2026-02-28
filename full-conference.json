@@ -1,7 +1,7 @@
 conferences([
     {
         "conference": "[MobiSys'26, To Appear]",
-        // "confernce_fullname": "",
+        "confernce_fullname": "The ACM International Conference on Mobile Systems, Applications, and Services",
         "show_selected": true,
         "title": "Dynamic Sparse Attention on Mobile SoCs",
         "authors": ["Wangsong Yin", "Daliang Xu", "Mengwei Xu", "Gang Huang", "Xuanzhe Liu"],
