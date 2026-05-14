@@ -32,6 +32,10 @@ conferences([
             {
                 "name": "paper",
                 "path": "files/sensys26yin.pdf"
+            },
+            {
+                "name": "slides",
+                "path": "files/sensys26yin-slides.pdf"
             }],
             "important_msg": null,
             "msg": "--- Managing the context under the vision of LLM as mobile OS service."
