@@ -17,10 +17,10 @@ conferences([
         }
     },
     {
-        "conference": "[SenSys'26, To Appear]",
+        "conference": "[SenSys'26]",
         "confernce_fullname": "The International Conference on Embedded Artificial Intelligence and Sensing Systems",
         "show_selected": true,
-        "title": "LLM as a System Service on Mobile Devices",
+        "title": "An Efficient Context Management System for On-Device LLMaaS",
         "authors": ["Wangsong Yin", "Mengwei Xu", "Yuanchun Li", "Xuanzhe Liu"],
         "year": 2025,
         "addtion": {
@@ -28,6 +28,10 @@ conferences([
             "files": [{
                 "name": "arxiv",
                 "path": "https://arxiv.org/abs/2403.11805"
+            },
+            {
+                "name": "paper",
+                "path": "files/sensys26yin.pdf"
             }],
             "important_msg": null,
             "msg": "--- Managing the context under the vision of LLM as mobile OS service."
