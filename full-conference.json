@@ -1,6 +1,6 @@
 conferences([
     {
-        "conference": "[MobiSys'26, To Appear]",
+        "conference": "[MobiSys'26]",
         "confernce_fullname": "The ACM International Conference on Mobile Systems, Applications, and Services",
         "show_selected": true,
         "title": "Dynamic Sparse Attention on Mobile SoCs",
@@ -9,8 +9,16 @@ conferences([
         "addtion": {
             "rate": "Acceptance rate = 22.4 % (68/304)",
             "files": [{
-                "name": "arxiv",
-                "path": "https://arxiv.org/abs/2508.16703"
+                "name": "paper",
+                "path": "files/mobisys26yin.pdf"
+            }，
+            {
+                "name": "slides",
+                "path": "files/mobisys26yin-slides.pdf"
+            },
+            {
+                "name": "code",
+                "path": "https://github.com/UbiquitousLearning/mllm/tree/v1"
             }],
             "important_msg": null,
             "msg": "--- AFAWK, the best practice to run sparse attention on heterogeneous mobile SoC."
