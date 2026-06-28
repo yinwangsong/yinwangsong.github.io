@@ -11,7 +11,7 @@ conferences([
             "files": [{
                 "name": "paper",
                 "path": "files/mobisys26yin.pdf"
-            }，
+            },
             {
                 "name": "slides",
                 "path": "files/mobisys26yin-slides.pdf"
