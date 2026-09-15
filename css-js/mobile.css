@@ -68,7 +68,7 @@
 
     #content.contentarea > h4 {
         display: block;
-        margin: 28px 0 6px;
+        margin: 20px 0 4px;
         padding-right: 0;
         background: none;
         font-size: 19px;
@@ -92,17 +92,19 @@
 
     #conference-example li,
     [id="journal-example"] li {
-        margin: 22px 0 0;
-        padding-bottom: 22px;
+        margin: 14px 0 0;
+        padding-bottom: 14px;
         border-bottom: 1px solid #e7e7e7;
-        line-height: 1.7;
+        font-size: 14px;
+        line-height: 1.5;
     }
 
     #conference-example li > b:first-child,
     [id="journal-example"] li > b:first-child {
         display: block;
-        margin-bottom: 8px;
-        line-height: 1.55;
+        margin-bottom: 5px;
+        font-size: 16px;
+        line-height: 1.4;
     }
 
     #conference-example li > b:first-child + br,
@@ -113,9 +115,9 @@
     #conference-example li a,
     [id="journal-example"] li a {
         display: inline-block;
-        padding: 8px 1px;
-        font-size: 15px;
-        line-height: 1.6;
+        padding: 4px 1px;
+        font-size: 14px;
+        line-height: 1.5;
         text-decoration: underline;
         text-underline-offset: 3px;
     }
@@ -123,9 +125,9 @@
     #conference-example li > small,
     [id="journal-example"] li > small {
         display: block;
-        margin-top: 4px;
+        margin-top: 2px;
         color: #666666;
-        font-size: 14px;
-        line-height: 1.6;
+        font-size: 13px;
+        line-height: 1.5;
     }
 }
