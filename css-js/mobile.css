@@ -33,13 +33,14 @@
         width: 180px;
         max-width: 100%;
         height: auto;
-        margin: 0 0 18px !important;
+        margin: 0 auto 18px !important;
     }
 
-    #person-info p {
+    #person-info .profile-details {
         font-size: 14px;
         line-height: 1.5;
         margin-bottom: 8px;
+        text-align: center;
     }
 
     #person-info font[size="6"] {
@@ -83,6 +84,7 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        justify-content: center;
         gap: 2px 14px;
         margin-top: 8px;
     }
