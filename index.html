@@ -120,14 +120,17 @@
   
                           //conference fullname & acceptance rate
                           if (result[i].conference != "[arXiv]") {
+                              // Keep the desktop text run intact to preserve glyph positions.
+                              // Mobile displays a separate rate-only copy from the same data.
                               if (result[i].addtion.rate != null)
-                                  document.write(result[i].confernce_fullname + '. ' + result[i].addtion.rate + '.');
+                                  document.write('<span class="publication-venue-full">' + result[i].confernce_fullname + '. ' + result[i].addtion.rate + '.</span><span class="publication-mobile-rate" style="display:none">' + result[i].addtion.rate + '.</span>');
                               else
-                                  document.write('<i> ' + result[i].confernce_fullname + '.</i>');
+                                  document.write('<i class="publication-venue-full"> ' + result[i].confernce_fullname + '.</i>');
                           
                               if (result[i].addtion.important_msg != null)
                                       document.write('<strong style="color: red"> ' + result[i].addtion.important_msg + '</strong>');
-                              document.write('<br>')
+                              document.write(result[i].addtion.rate == null && result[i].addtion.important_msg == null
+                                  ? '<br class="publication-venue-full">' : '<br>')
                           }   
   
                           //files
@@ -191,7 +194,7 @@
 
 
                           //journal fullname
-                          document.write('<i> ' + result[i].journal_fullname + '.</i><br>');
+                          document.write('<i class="publication-venue-full"> ' + result[i].journal_fullname + '.</i><br class="publication-venue-full">');
 
                           //files
                           if (result[i].files != null) {

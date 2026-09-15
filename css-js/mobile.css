@@ -66,12 +66,17 @@
         margin-bottom: 28px;
     }
 
+    #content.contentarea {
+        font-size: 13px;
+        line-height: 1.45;
+    }
+
     #content.contentarea > h4 {
         display: block;
-        margin: 20px 0 4px;
+        margin: 16px 0 4px;
         padding-right: 0;
         background: none;
-        font-size: 19px;
+        font-size: 18px;
         line-height: 1.4;
     }
 
@@ -90,20 +95,29 @@
         display: none;
     }
 
+    /* The title already includes the venue abbreviation; retain full names on desktop. */
+    .publication-venue-full {
+        display: none;
+    }
+
+    .publication-mobile-rate {
+        display: inline !important;
+    }
+
     #conference-example li,
     [id="journal-example"] li {
-        margin: 14px 0 0;
-        padding-bottom: 14px;
+        margin: 10px 0 0;
+        padding-bottom: 10px;
         border-bottom: 1px solid #e7e7e7;
-        font-size: 14px;
-        line-height: 1.5;
+        font-size: 13px;
+        line-height: 1.45;
     }
 
     #conference-example li > b:first-child,
     [id="journal-example"] li > b:first-child {
         display: block;
-        margin-bottom: 5px;
-        font-size: 16px;
+        margin-bottom: 4px;
+        font-size: 14.5px;
         line-height: 1.4;
     }
 
@@ -115,8 +129,8 @@
     #conference-example li a,
     [id="journal-example"] li a {
         display: inline-block;
-        padding: 4px 1px;
-        font-size: 14px;
+        padding: 3px 1px;
+        font-size: 13px;
         line-height: 1.5;
         text-decoration: underline;
         text-underline-offset: 3px;
@@ -127,7 +141,7 @@
         display: block;
         margin-top: 2px;
         color: #666666;
-        font-size: 13px;
-        line-height: 1.5;
+        font-size: 12px;
+        line-height: 1.45;
     }
 }
