@@ -24,21 +24,22 @@
     #person-info {
         margin-left: 0 !important;
         margin-right: 0 !important;
-        padding-top: 28px;
+        padding-top: 22px;
     }
 
     #person-info > img {
         display: block;
         float: none !important;
-        width: 220px;
+        width: 180px;
         max-width: 100%;
         height: auto;
-        margin: 0 auto 24px !important;
+        margin: 0 0 18px !important;
     }
 
     #person-info p {
-        line-height: 1.6;
-        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 8px;
     }
 
     #person-info font[size="6"] {
@@ -48,9 +49,46 @@
 
     #person-info a {
         display: inline-block;
-        padding: 4px 2px;
+        padding: 4px 0;
         text-decoration: underline;
         text-underline-offset: 3px;
+    }
+
+    #person-info .profile-details > br,
+    #person-info .profile-identity > br,
+    #person-info .profile-resources > br,
+    #person-info .profile-desktop-only {
+        display: none;
+    }
+
+    #person-info .profile-mobile-only {
+        display: inline !important;
+    }
+
+    #person-info .profile-identity,
+    #person-info .profile-identity > b,
+    #person-info .profile-email {
+        display: block;
+    }
+
+    #person-info .profile-identity > b {
+        margin-bottom: 6px;
+    }
+
+    #person-info .profile-email {
+        margin-top: 14px;
+    }
+
+    #person-info .profile-resources {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2px 14px;
+        margin-top: 8px;
+    }
+
+    #person-info .profile-resources a {
+        white-space: nowrap;
     }
 
     #outer p {
