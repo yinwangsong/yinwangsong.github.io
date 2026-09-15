@@ -1,12 +1,19 @@
 /* Small-screen overrides only; the original desktop styles stay untouched. */
 @media screen and (max-width: 600px) {
     body {
-        padding: 12px 0;
+        padding: 0;
+    }
+
+    #outer {
+        border: 0;
+        font-size: 16px;
+        line-height: 1.7;
+        overflow-wrap: break-word;
     }
 
     #outer > #content {
-        padding-left: 14px;
-        padding-right: 14px;
+        padding-left: clamp(18px, 5.5vw, 24px);
+        padding-right: clamp(18px, 5.5vw, 24px);
     }
 
     #outer > #content #content {
@@ -17,21 +24,108 @@
     #person-info {
         margin-left: 0 !important;
         margin-right: 0 !important;
+        padding-top: 28px;
     }
 
     #person-info > img {
         display: block;
         float: none !important;
+        width: 220px;
         max-width: 100%;
         height: auto;
-        margin: 0 auto 20px !important;
+        margin: 0 auto 24px !important;
     }
 
-    #outer {
-        overflow-wrap: break-word;
+    #person-info p {
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    #person-info font[size="6"] {
+        font-size: 30px;
+        line-height: 1.25;
+    }
+
+    #person-info a {
+        display: inline-block;
+        padding: 4px 2px;
+        text-decoration: underline;
+        text-underline-offset: 3px;
     }
 
     #outer p {
         text-align: left;
+    }
+
+    #about hr {
+        margin: 8px 0 24px;
+    }
+
+    #about p {
+        line-height: 1.75;
+        margin-bottom: 28px;
+    }
+
+    #content.contentarea > h4 {
+        display: block;
+        margin: 28px 0 6px;
+        padding-right: 0;
+        background: none;
+        font-size: 19px;
+        line-height: 1.4;
+    }
+
+    #content.contentarea > h4 + br {
+        display: none;
+    }
+
+    /* Keep the original list markup, including its nested journal lists. */
+    #content.contentarea ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    #content.contentarea p.pubEntry:empty {
+        display: none;
+    }
+
+    #conference-example li,
+    [id="journal-example"] li {
+        margin: 22px 0 0;
+        padding-bottom: 22px;
+        border-bottom: 1px solid #e7e7e7;
+        line-height: 1.7;
+    }
+
+    #conference-example li > b:first-child,
+    [id="journal-example"] li > b:first-child {
+        display: block;
+        margin-bottom: 8px;
+        line-height: 1.55;
+    }
+
+    #conference-example li > b:first-child + br,
+    [id="journal-example"] li > b:first-child + br {
+        display: none;
+    }
+
+    #conference-example li a,
+    [id="journal-example"] li a {
+        display: inline-block;
+        padding: 8px 1px;
+        font-size: 15px;
+        line-height: 1.6;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+    }
+
+    #conference-example li > small,
+    [id="journal-example"] li > small {
+        display: block;
+        margin-top: 4px;
+        color: #666666;
+        font-size: 14px;
+        line-height: 1.6;
     }
 }
