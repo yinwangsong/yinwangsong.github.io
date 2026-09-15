@@ -1,83 +1,257 @@
 <!doctype html>
 <html lang="en">
+
 <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Wangsong Yin — research on system software for on-device AI, especially LLMs.">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css-js/bootstrap.min.css">
+    <link rel="stylesheet" href="./css-js/all.css">
+
+    <link rel="stylesheet" href="./css-js/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css-js/default.css" />
+    <link rel="stylesheet" type="text/css" href="./css-js/menucss.css" />
+    <link rel="stylesheet" href="./css-js/mobile.css" media="screen and (max-width: 600px)">
+
+    <style>
+        .footer {
+            position: relative;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 25%;
+            background-color: #d5d8dc;
+            color: white;
+            text-align: left;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #336699;
+        }
+    </style>
+
     <title>Wangsong Yin</title>
-    <link rel="stylesheet" href="./css-js/homepage.css">
-    <script src="./css-js/homepage.js" defer></script>
 </head>
-<body id="top">
-    <a class="skip-link" href="#main-content">Skip to main content</a>
-    <div class="page">
-        <nav class="section-nav" aria-label="Main navigation">
-            <a href="#about">About</a>
-            <a href="#conferences">Conferences</a>
-            <a href="#journals">Journals</a>
-            <a href="/prose/">Prose <span aria-hidden="true">↗</span></a>
-        </nav>
 
-        <header class="profile" aria-labelledby="name">
-            <img class="portrait" src="image/image.png" alt="Wangsong Yin's Profile Picture"
-                 width="300" height="204" fetchpriority="high">
-            <div class="profile-details">
-                <h1 id="name">Wangsong Yin</h1>
-                <p class="affiliation">Ph.D. Candidate @ Peking University (PKU), School of Computer Science</p>
-                <p class="contact"><strong>Email</strong>: yws AT stu DOT pku DOT edu DOT cn</p>
-                <p class="cv">Here is my <a href="files/cv-yws.pdf" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a>.</p>
-                <ul class="social-links" aria-label="Academic and social profiles">
-                    <li><a href="https://github.com/yinwangsong" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-                    <li><a href="https://scholar.google.com/citations?user=9hp2_UsAAAAJ&amp;hl=zh-CN" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>
-                    <li><a href="https://www.linkedin.com/in/%E6%9C%9B%E5%B5%A9-%E5%B0%B9-3aa0513b7/?skipRedirect=true" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
-                </ul>
-            </div>
-        </header>
+<body>
+    <div id="outer">
+        <div id="content">
+            <!--person-->
+            <div id="normalcontent">
+                <div class="contentarea" style="margin-left:75px; margin-right:105px;" id="person-info">
+                    <img src="image/image.png" style="float:left; margin-right:40px;" alt="Wangsong Yin's Profile Picture" width="300" height="204" />
+                    <p>
+                        <b><font size="6">Wangsong Yin</font></b>
+                        <br>
+                        <br> Ph.D. Candidate @ Peking University (PKU), School of Computer Science
+                        <br>
+                        <br>
+                        <b>Email</b>: yws AT stu DOT pku DOT edu DOT cn
+                        <br>
+                        <br> Here is my <a target="_blank" href="files/cv-yws.pdf" target="_blank">Curriculum Vitae</a>.
+                        <br>
+                        <br> [<a target="_blank" href="https://github.com/yinwangsong" target="_blank">GitHub</a>|<a target="_blank" href="https://scholar.google.com/citations?user=9hp2_UsAAAAJ&hl=zh-CN" target="_blank">Google Scholar</a>|<a target="_blank" href="https://www.linkedin.com/in/%E6%9C%9B%E5%B5%A9-%E5%B0%B9-3aa0513b7/?skipRedirect=true" target="_blank">Linkedin</a>]
+                        <!--<font color="#b9304a">I am recruiting motivated and ambitious PhD, Master, undergraduate students, and remote research interns to join my lab.</font>-->
+                    </p>
 
-        <main id="main-content" tabindex="-1">
-            <section class="about section" id="about" aria-labelledby="about-heading" tabindex="-1">
-                <h2 id="about-heading">About</h2>
-                <p>I received my bachelor's degree from Northwestern Polytechnical University (NWPU), School of Software in 2022, with a GPA ranking of 1/258 and National Scholarship in each year (2019/2020/2021).</p>
-                <p>I am now a Ph.D. candidate at Peking University (PKU), School of Computer Science, advised by <a href="https://www.ai.pku.edu.cn/en/info/1337/1682.htm" target="_blank" rel="noopener noreferrer">Prof. Gang Huang</a> and <a href="http://www.liuxuanzhe.com/" target="_blank" rel="noopener noreferrer">Prof. Xuanzhe Liu</a>. I also work closely with <a href="https://xumengwei.github.io/index.html" target="_blank" rel="noopener noreferrer">Prof. Mengwei Xu</a> in BUPT.</p>
-                <p>My research focuses on building system software for on-device AI, especially LLMs.</p>
-                <p>Currently, I am visiting CUHK AIoT Lab, advised by <a href="https://staff.ie.cuhk.edu.hk/~glxing/" target="_blank" rel="noopener noreferrer">Prof. Guoliang Xing</a> and <a href="https://yanzhenyu.com/" target="_blank" rel="noopener noreferrer">Prof. Zhenyu Yan</a>.</p>
-                <p class="opportunities"><strong>I am looking for internship, job and postdoc opportunities.</strong></p>
-            </section>
-
-            <section class="section publications" id="conferences" aria-labelledby="conference-heading" tabindex="-1">
-                <div class="section-heading">
-                    <h2 id="conference-heading">Conference Publications</h2>
-                    <p class="contribution-note">* = equal contributions</p>
                 </div>
-                <p class="publication-status" id="conference-status" role="status" hidden></p>
-                <ul class="publication-list" id="conference-list"></ul>
-                <noscript><p>Please enable JavaScript to display the publication list, or see my <a href="https://scholar.google.com/citations?user=9hp2_UsAAAAJ&amp;hl=zh-CN">Google Scholar profile</a> and <a href="files/cv-yws.pdf">Curriculum Vitae</a>.</p></noscript>
-            </section>
-
-            <section class="section publications" id="journals" aria-labelledby="journal-heading" tabindex="-1">
-                <div class="section-heading">
-                    <h2 id="journal-heading">Journal Publications</h2>
-                    <p class="contribution-note">* = equal contributions</p>
-                </div>
-                <p class="publication-status" id="journal-status" role="status" hidden></p>
-                <ul class="publication-list" id="journal-list"></ul>
-                <noscript><p>Journal publications are also available on my <a href="https://scholar.google.com/citations?user=9hp2_UsAAAAJ&amp;hl=zh-CN">Google Scholar profile</a> and in my <a href="files/cv-yws.pdf">Curriculum Vitae</a>.</p></noscript>
-            </section>
-        </main>
-
-        <footer class="site-footer">
-            <a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
-            <div class="analytics">
-                <!-- Existing Statcounter account; asynchronous loading does not block the page. -->
-                <script>
-                    var sc_project = 13221844;
-                    var sc_invisible = 0;
-                    var sc_security = "de64a9da";
-                </script>
-                <script async src="https://statcounter.com/counter/counter.js"></script>
-                <noscript><a title="Web Analytics" href="https://statcounter.com/" target="_blank" rel="noopener noreferrer"><img src="https://c.statcounter.com/13221844/0/de64a9da/0/" alt="Web Analytics" referrerpolicy="no-referrer-when-downgrade"></a></noscript>
             </div>
-        </footer>
-    </div>
+
+            <!--about-->
+            <div class="contentarea">
+                <div id="about">
+                    <hr size="30" color="#cfd8dc">
+                    <p>
+                        I received my bachelor's degree from Northwestern Polytechnical University (NWPU), School of Software in 2022, with a GPA ranking of 1/258 and National Scholarship in each year (2019/2020/2021).
+                        <br>
+                        <br>
+                        I am now a Ph.D. candidate at Peking University (PKU), School of Computer Science, advised by <a target="_blank" href="https://www.ai.pku.edu.cn/en/info/1337/1682.htm" target="_blank">Prof. Gang Huang</a> and <a target="_blank" href="http://www.liuxuanzhe.com/" target="_blank">Prof. Xuanzhe Liu</a>. I also work closely with <a target="_blank" href="https://xumengwei.github.io/index.html" target="_blank">Prof. Mengwei Xu</a> in BUPT.
+                        <br>
+                        <br>
+                        My research focuses on building system software for on-device AI, especially LLMs.
+                        <br>
+                        <br>
+                        Currently, I am visiting CUHK AIoT Lab, advised by <a target="_blank" href="https://staff.ie.cuhk.edu.hk/~glxing/" target="_blank">Prof. Guoliang Xing</a> and <a target="_blank" href="https://yanzhenyu.com/" target="_blank">Prof. Zhenyu Yan</a>.
+                        <br>
+                        <br>
+                        <strong style="color: red;">I am looking for internship, job and postdoc opportunities.</strong>
+                    </p>
+                </div>
+            </div>
+
+            <div id="content" class="contentarea">
+              <!-- conference publications -->
+              <h4>Conference Publications</h4>
+              </br> (* = equal contributions)
+  
+  
+              <script>
+                  function conferences(result) {
+                      document.write('<ul><div id="conference-example">');
+                      for (i = 0; i < result.length; i++) {
+                          if(!result[i].show_selected)
+                              continue;
+                          document.write('<p class="pubEntry"><li><b>');
+                          // title
+                          if (result[i].conference != '[arXiv]')
+                              document.write('<strong style="color: IndianRed">');
+                          document.write(result[i].conference);
+                          if (result[i].conference != '[arXiv]')
+                              document.write('</strong>');
+                          document.write(' ' + result[i].title + '</b><br>');
+  
+                          // authors
+                          for (j = 0; j < result[i].authors.length; j++) {
+                              var name = result[i].authors[j];
+                              if (name == 'Wangsong Yin')
+                                  document.write("<b>Wangsong Yin</b>");
+                              else if (name == 'Wangsong Yin*')
+                                  document.write("<b>Wangsong Yin*</b>");
+                              else
+                                  document.write(name);
+                              if (j != result[i].authors.length - 1)
+                                  document.write(',');
+                              document.write(' ');
+                          }
+                          document.write('<br>');
+  
+                          //conference fullname & acceptance rate
+                          if (result[i].conference != "[arXiv]") {
+                              if (result[i].addtion.rate != null)
+                                  document.write(result[i].confernce_fullname + '. ' + result[i].addtion.rate + '.');
+                              else
+                                  document.write('<i> ' + result[i].confernce_fullname + '.</i>');
+                          
+                              if (result[i].addtion.important_msg != null)
+                                      document.write('<strong style="color: red"> ' + result[i].addtion.important_msg + '</strong>');
+                              document.write('<br>')
+                          }   
+  
+                          //files
+                          if (result[i].addtion.files != null) {
+                              for (j = 0; j < result[i].addtion.files.length; j++) {
+                                  if (j == 0)
+                                      document.write('[');
+                                  else
+                                      document.write(' | ');
+                                  document.write('<a  style="font-weight:bold" target="_blank" href="' + result[i].addtion.files[j].path + '">' + result[i].addtion.files[j].name + '</a>');
+  
+                              }
+                              document.write(']');
+                          }
+                          if (result[i].addtion.msg != null)
+                              document.write('&emsp; <small>' + result[i].addtion.msg + '</small>');
+                          document.write('</li>');
+                      }
+                      document.write("</div></ul>");
+                  }
+              </script>
+  
+              <script type="text/javascript" src="full-conference.json?callback=conferences"></script>
+      
+              <!-- <hr size="30" color="#cfd8dc"> -->
+              <br>
+              <h4>Journal Publications</h4>
+              </br> (* = equal contributions)
+              <h2></h2>
+
+              <script>
+                  function journals(result) {
+                      document.write('<ul><div id="journal-example">');
+                      for (i = 0; i < result.length ; i++) {
+                          if(!result[i].show_selected)
+                              continue;
+                          document.write('<ul><div id="journal-example">');
+                          document.write('<p class="pubEntry"><li><b>');
+                          // title
+                          if (result[i].journal != '[arXiv]')
+                              document.write('<strong style="color: IndianRed">');
+                          document.write(result[i].journal);
+                          if (result[i].journal != '[arXiv]')
+                              document.write('</strong>');
+                          document.write(' ' + result[i].title + '</a></b><br>');
+
+                          // authors
+                          for (j = 0; j < result[i].authors.length; j++) {
+                              var name = result[i].authors[j];
+                              if (name == 'Wangsong Yin')
+                                  document.write("<b>Wangsong Yin</b>");
+                              else if (name == 'Wangsong Yin*')
+                                  document.write("<b>Wangsong Yin*</b>");
+                              else
+                                  document.write(name);
+                              if (j != result[i].authors.length - 1)
+                                  document.write(',');
+                              document.write(' ');
+                          }
+                          document.write('<br>');
+
+
+                          //journal fullname
+                          document.write('<i> ' + result[i].journal_fullname + '.</i><br>');
+
+                          //files
+                          if (result[i].files != null) {
+                              for (j = 0; j < result[i].files.length; j++) {
+                                  if (j == 0)
+                                      document.write('[');
+                                  else
+                                      document.write(' | ');
+                                  document.write('<a  target="_blank" href="' + result[i].files[j].path + '">' + result[i].files[j].name + '</a>');
+
+                              }
+                              document.write(']');
+
+                          }
+                          if (result[i].msg != null)
+                              document.write('&emsp; <small>' + result[i].msg + '</small>');
+                          document.write('</li>');
+                      }
+                      document.write("</div></ul>");
+                  }
+              </script>
+
+              <script type="text/javascript" src="full-journal.json?callback=journals"></script>
+            </div>
+
+          <div class="panel-group" id="accordion">
+  
+  
+              <div class="footer"></div>
+  
+  
+              <script src="./css-js/jquery-3.3.1.slim.min.js"></script>
+              <script src="./css-js/popper.min.js"></script>
+              <script src="./css-js/bootstrap.min.js"></script>
+
 </body>
+
+
+<!-- Default Statcounter code for my home page https://yinwangsong.github.io/
+-->
+<script type="text/javascript">
+var sc_project=13221844; 
+var sc_invisible=0; 
+var sc_security="de64a9da"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" + scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13221844/0/de64a9da/0/" alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+<footer class="footer">
+    <div class="container">
+        <span class="text-muted"></span>
+    </div>
+</footer>
+
+</html>
+
 </html>
